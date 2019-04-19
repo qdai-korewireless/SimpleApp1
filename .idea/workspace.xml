@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e5959db-210d-40bd-944e-5433f0015618" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API.Test/Billing/BillingInfoLogicTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API.Test/Billing/BlingRunTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API.Test/BlingEvent/BlingEventTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API.Test/BlingLogicTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API.Test/Classes/ClassesTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API.Test/Company/CompanyParentValidationTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API.Test/Company/CompanyTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API.Test/Connections/ConnectionMocks.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API.Test/Connections/ConnectionProrationTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API.Test/Connections/ConnectionTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API.Test/DevicePlans/DevicePlanTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API.Test/Diagnostics/ServiceStatusTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API.Test/Kore.Bling.API.Test.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API.Test/NonUsageCharges/NonUsageChargesTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API.Test/Pricing/RateTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API.Test/Pricing/SafMergeTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API.Test/Pricing/SafRates.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API.Test/Utils/AutoMoqDataAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API.Test/Utils/InlineAutoMoqDataAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/01_Initialize.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/02_UsageChargesTables.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/03_CompanyChargesTable.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/04_UsageChargesTablesDrop.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/05_CompanyChargesTableDrop.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/06_UsageChargesTablesRecreate.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/07_CompanyChargesTableRecreate.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/Baseline/B20181213_SeedCompanyRelationship.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/TEL-15593_01.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/TEL-15596_connection_proration.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/TEL-15596_connection_status.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/TEL-16602_connection_status_history.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/U20181214_usage_rounding.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/U20181217_CompanyChargesAddDescription.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/U20181217_CreateOffsetTable.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/U20181217_CreateStateTable.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/U20181217_DeviceNonUsageCharges.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/U20181227_CompanyChargesAddDescriptionToPK.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/U20181227_DeviceNonUsageCharges_AddRate.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/U20181228_sim_summaries_cost.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/U20190107_CreateStateTables.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/U20190115_invoices.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/U20190116_BillingPeriodStatusAndSteps.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/U20190116_sim_summaries_usage.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/U20190117_BlingOffsetTableRebuild.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/U20190117_UpdateStatesToHandleRollbackAndReorder.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/U20190121_RecreateStateTable.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/U20190122_UsageChargesTablesRecreate.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/U20190123_TEL15603_transient_invoice.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/U20190128_UsageTotalsDailyTable.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/U20190128_UsageTotalsMonthlyTable.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/U20190131_TEL17966_sim_summaries_cost.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/U20190206_TEL18074_sim_summaries_usage.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/U20190208_TEL18083_Increment4Changes.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/U20190212_RecreateCompanyCharges.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/U20190226_TEL18495_Inc4BucketState.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Cassandra/Scripts/U20190327_TEL19271_device_usage_charges.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Controllers/BaseController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Controllers/BillingInfoController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Controllers/BlingEventController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Controllers/BlingReprocessController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Controllers/BlingRunController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Controllers/BlingStreamingController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Controllers/CarrierController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Controllers/ClassController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Controllers/CompanyController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Controllers/ConnectionController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Controllers/DevicePlanController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Controllers/FeatureController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Controllers/LookupController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Controllers/ServiceStatusController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Controllers/ThresholdController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Conventions/ExceptionMiddlewareExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Conventions/RouteConvention.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Extensions/MvcOptionsExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Helpers/SimpleRedisReader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Helpers/Versioning.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Kore.Bling.API.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Models/BlingState/ClearStateRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Models/BlingState/UsageReprocessRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Models/BlingStreaming/BlingStreamingQueryEndDateRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Models/BlingStreaming/KeyValueObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Models/ErrorDetails.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Models/SecretRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/appsettings.QA.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/appsettings.Release.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.API/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL.Interfaces/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL.Interfaces/Billing/IBillingInfoLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL.Interfaces/Billing/IBlingRunLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL.Interfaces/Carrier/ICarrierLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL.Interfaces/Classes/IClassLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL.Interfaces/Common/IDateTimeProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL.Interfaces/Company/ICompanyLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL.Interfaces/Connections/IConnectionInformationLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL.Interfaces/Connections/IConnectionLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL.Interfaces/DevicePlans/IDevicePlansLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL.Interfaces/Diagnostics/IServiceStatusLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL.Interfaces/Events/IBlingEventLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL.Interfaces/Features/IFeaturesLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL.Interfaces/Kore.Bling.BL.Interfaces.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL.Interfaces/NonUsageCharges/INonUsageCharges.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL.Interfaces/Pricing/IRateLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL.Interfaces/Reprocess/IBlingReprocessLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL.Interfaces/Streaming/IBlingStreamingLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL.Interfaces/Threshold/IThresholdLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL/Billing/BillingInfoFromDatabaseLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL/Billing/BillingInfoLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL/Billing/BlingRunLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL/Cache/MemoryCacheVersion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL/Carrier/CarrierLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL/Classes/ClassLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL/Common/DateTimeProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL/Company/CompanyLogic.Validation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL/Company/CompanyLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL/Connections/ConnectionInformationLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL/Connections/ConnectionLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL/DevicePlans/DevicePlansLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL/Diagnostics/ServiceStatusLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL/Events/BlingEventLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL/Extensions/BlingDateTimeExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL/Extensions/KoreBlingServiceConfiguration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL/Features/FeaturesLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL/Helper/DateTimeHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL/Helper/GeneralValidation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL/Kore.Bling.BL.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL/NonUsageCharges/NonUsageCharges.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL/Pricing/RateLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL/Reprocess/BlingReprocessLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL/Streaming/BlingStreamingLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.BL/Threshold/ThresholdLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.BE/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.BE/BaseRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.BE/Bling/BlingRunBERepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.BE/Carrier/CarrierBERepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.BE/Extensions/BeDALConfiguration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.BE/Extensions/ConnectionManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.BE/Kore.Bling.DAL.BE.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.CASS/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.CASS/BlingState/BlingOutputRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.CASS/BlingState/BlingRunRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.CASS/BlingState/BlingStateRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.CASS/BlingStreaming/BlingStreamingRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.CASS/Common/CassandraBaseRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.CASS/Common/CassandraConnector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.CASS/Common/CassandraMappings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.CASS/Company/CompanyHierarchyCASRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.CASS/Extensions/CassandraDALConfiguration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.CASS/Kore.Bling.DAL.CASS.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.FE/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.FE/BaseRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.FE/BillingInfo/BillingInfoFeRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.FE/Classes/ClassesFERepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.FE/Company/CompanyFERepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.FE/Connections/ConnectionFeRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.FE/DevicePlans/DevicePlansFeRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.FE/Extensions/ConnectionManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.FE/Extensions/FeDALConfiguration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.FE/Features/FeaturesFeRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.FE/Helpers/UrnConversions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.FE/Kore.Bling.DAL.FE.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.FE/NonUsageCharges/NonUsageChargesLookupRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.FE/Pricing/RatesFERepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.FE/Threshold/ThresholdRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Interfaces/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Interfaces/BillingInfo/IBillingInfoRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Interfaces/BlingState/IBlingOutput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Interfaces/BlingState/IBlingRunBERepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Interfaces/BlingState/IBlingRunRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Interfaces/BlingState/IBlingStateRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Interfaces/BlingStreaming/IBlingStreamingRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Interfaces/Cache/IMemoryCacheVersion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Interfaces/Carrier/ICarrierRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Interfaces/Classes/IClassRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Interfaces/Company/ICompanyHierarchyRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Interfaces/Company/ICompanyRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Interfaces/Connections/IConnectionRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Interfaces/DevicePlans/IDevicePlansRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Interfaces/Event/IBlingEventRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Interfaces/Features/IFeaturesRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Interfaces/Kore.Bling.DAL.Interfaces.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Interfaces/NonUsageCharges/INonUsageChargesLookupRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Interfaces/Pricing/IRatesRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Interfaces/Threshold/IThresholdRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Kafka/Extensions/KafkaConfiguration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Kafka/KafkaEventsProducer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Kafka/Kore.Bling.DAL.Kafka.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Redis/BlingState/BlingStateRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Redis/BlingStreaming/BlingStreamingRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Redis/Common/RedisBaseConnection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Redis/Extensions/RedisDALConfiguration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.DAL.Redis/Kore.Bling.DAL.Redis.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Billing/BillingInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Billing/BillingPeriod.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Billing/MessageValue.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Carrier/GSARegionRating.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Classes/KoreClass.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Classes/KoreClassBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Classes/KoreClassName.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Company/BobCompanyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Company/CompanyHierarchy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Company/CompanyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Company/CompanyValidationCodes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Company/CompanyValidationMessage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Connections/ConnectionCustomLabelValue.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Connections/ConnectionFeatureHistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Connections/ConnectionFeatureHistoryGroup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Connections/ConnectionInformation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Connections/ConnectionPlanDetailsHistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Connections/ConnectionPlanDetailsHistoryByCompany.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Connections/ConnectionPlanDetailsHistoryWithDatesByCompany.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Connections/ConnectionPlanHistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Connections/ConnectionProration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Connections/ConnectionStateTransitionHistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Connections/ConnectionType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Connections/Sim.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Connections/SimCustomLabelValueLegacy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Constants/CacheTimes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Constants/PoolTypes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/DevicePlans/BaseClassScheme.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/DevicePlans/CommitmentClassesPerPlan.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/DevicePlans/DevicePlanGroup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/DevicePlans/DevicePlanInformation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/DevicePlans/NonCommitmentChargeScheme.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/DevicePlans/NonCommitmentChargeSchemeContainer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/DevicePlans/NonCommitmentChargeSchemeContainerPerPlan.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/DevicePlans/OverageScheme.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/DevicePlans/OverageSchemeContainer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/DevicePlans/OverageSchemeContainerPerPlan.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/DevicePlans/OverageSchemeFlat.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/DevicePlans/PlanOverageScheme.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/DevicePlans/PlanUsageCommitment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/DevicePlans/SAF.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/DevicePlans/Surcharge.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/DevicePlans/SurchargeContainer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/DevicePlans/SurchargeContainerPerPlan.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Diagnostics/ServiceStatus.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Enums/ConnectionStates.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Enums/PlanAssignmentStatus.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Event/NonUsageEvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Exceptions/BadRequestException.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Exceptions/ErrorMessage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Exceptions/NotFoundException.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Features/FeatureDetails.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Kafka/KafkaMessage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Kore.Bling.Models.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/NonUsageCharges/SafBillingClass.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/NonUsageCharges/SafConnectionInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/NonUsageCharges/SafFeature.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/NonUsageCharges/SafKey.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/NonUsageCharges/SafPlanCode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/NonUsageCharges/SafPlanCodeBillingServiceType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/NonUsageCharges/SafPlanInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/NonUsageCharges/SafRate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Pricing/Rate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Pricing/RateBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Streaming/BlingStreamingEndDateQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Models/Threshold/ThresholdSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Tests.E2E/BlingSystemTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Tests.E2E/Kore.Bling.Tests.E2E.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Tests.E2E/Models/AirTimeClass.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Tests.E2E/Models/BillRunResponse.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Tests.E2E/Models/BillRunStatusResponse.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Tests.E2E/Models/BillingBatch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Tests.E2E/Models/BillingPeriod.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Tests.E2E/Models/BillingPeriodEndEvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Tests.E2E/Models/CheckCDRForBillingResponse.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Tests.E2E/Models/Enums/BillRunStatus.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Tests.E2E/Models/ErrorDetails.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Tests.E2E/Models/ErrorMessage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Tests.E2E/Models/InvoiceResponse.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Tests.E2E/Models/KafkaMessage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Tests.E2E/Models/ParseCdrRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Tests.E2E/Models/ProvisionRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Tests.E2E/Models/ProvisionResponse.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Tests.E2E/Models/VerifyBillingPeriodResponse.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Tests.E2E/Utils/APIUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Tests.E2E/Utils/BillingPeriodUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Tests.E2E/Utils/CassandraUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Tests.E2E/Utils/ConfigurationUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Tests.E2E/Utils/LoggerUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Tests.E2E/Utils/SQLUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KORE.Bling.API/Kore.Bling.Tests.E2E/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.ps1" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+              <folding>
+                <element signature="n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/simple/App.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/SimpleTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/scala/com/simple/App.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/SimpleTest.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SimpleApp1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleApp1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleApp1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleApp1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleApp1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleApp1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleApp1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleApp1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.SimpleTest">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.simple.App" />
+      <module name="SimpleApp1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimpleApp1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimpleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SimpleTest" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e5959db-210d-40bd-944e-5433f0015618" name="Default Changelist" comment="" />
+      <created>1555683228258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555683228258</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Designer" />
+      <window_info id="Learn" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3147651" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.4305949" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/simple/App.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/SimpleTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SimpleApp1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
